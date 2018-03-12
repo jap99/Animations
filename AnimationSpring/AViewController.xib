@@ -16,7 +16,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="AnimationSpring" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AViewController" customModule="AnimationSpring" customModuleProvider="target">
             <connections>
                 <outlet property="dampingLabel" destination="vpO-Uu-78O" id="xW2-Lu-3TN"/>
                 <outlet property="durationLabel" destination="sWI-HI-gtO" id="Fe9-g0-cwt"/>
@@ -96,7 +96,7 @@
                                             <color key="textColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1000" minValue="0.0" maxValue="2000" translatesAutoresizingMaskIntoConstraints="NO" id="Z0D-UU-51e">
+                                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1500" minValue="0.0" maxValue="3000" translatesAutoresizingMaskIntoConstraints="NO" id="Z0D-UU-51e">
                                             <rect key="frame" x="-2" y="20.5" width="254" height="35"/>
                                             <color key="minimumTrackTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="thumbTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

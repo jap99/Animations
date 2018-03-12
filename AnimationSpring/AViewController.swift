@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AViewController: UIViewController {
 
     @IBOutlet weak var logoImage: UIImageView!
     @IBOutlet weak var gestureView: UIView!
@@ -21,10 +21,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var logo_centerYConstraint: NSLayoutConstraint!
     @IBOutlet weak var logo_centerXConstraint: NSLayoutConstraint!
     
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+        self.title = "A"
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let tapGesture: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.tap(_:)))
+        let tapGesture: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(AViewController.tap(_:)))
         self.gestureView.addGestureRecognizer(tapGesture)
         
         self.updateSliderLabel(for: self.durationSlider)
