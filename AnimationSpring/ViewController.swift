@@ -34,7 +34,7 @@ class ViewController: UIViewController {
 
     private func performSpringAnimation(animation: @escaping (() -> Void), reset: @escaping (() -> Void)) {
        
-        UIView.animate(withDuration: TimeInterval(self.durationSlider.value/1000.0), delay: 0.5, usingSpringWithDamping: CGFloat(self.springDampingSlider.value), initialSpringVelocity: CGFloat(self.springVelocitySlider.value), options: [.curveEaseOut], animations: {
+        UIView.animate(withDuration: TimeInterval(self.durationSlider.value/1000.0), delay: 0, usingSpringWithDamping: CGFloat(self.springDampingSlider.value), initialSpringVelocity: CGFloat(self.springVelocitySlider.value), options: [.curveEaseOut], animations: {
             animation()
         }) { (finished: Bool) in
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + .seconds(1), execute: {

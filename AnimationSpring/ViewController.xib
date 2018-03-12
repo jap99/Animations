@@ -10,6 +10,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="AnimationSpring" customModuleProvider="target">
             <connections>
@@ -34,12 +39,12 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tuk-d5-rpK">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="482"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="urz-HC-HWe">
-                            <rect key="frame" x="112.5" y="165.5" width="150" height="150"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="urz-HC-HWe">
+                            <rect key="frame" x="137.5" y="190.5" width="100" height="100"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="urz-HC-HWe" secondAttribute="height" multiplier="1:1" id="8OI-er-c35"/>
-                                <constraint firstAttribute="height" constant="150" id="wMC-pe-gmO"/>
+                                <constraint firstAttribute="height" constant="100" id="wMC-pe-gmO"/>
                             </constraints>
                         </imageView>
                     </subviews>
@@ -57,8 +62,8 @@
                             <constraints>
                                 <constraint firstAttribute="width" constant="55" id="bis-z5-am6"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                            <color key="textColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpO-Uu-78O">
@@ -66,8 +71,8 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="50.5" id="5fs-7M-B0m"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                            <color key="textColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HW-bS-6Cq">
@@ -75,8 +80,8 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="50.5" id="fRq-34-HUl"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                            <color key="textColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ryn-SP-8cL">
@@ -85,14 +90,14 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uDJ-qU-nIa">
                                     <rect key="frame" x="0.0" y="0.0" width="250" height="54.5"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Animation Duration (in seconds)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="V8v-3b-L1q">
-                                            <rect key="frame" x="0.0" y="0.0" width="250" height="17"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <nil key="textColor"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Animation Duration (seconds)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="V8v-3b-L1q">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="20.5"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                            <color key="textColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2500" minValue="0.0" maxValue="5000" translatesAutoresizingMaskIntoConstraints="NO" id="Z0D-UU-51e">
-                                            <rect key="frame" x="-2" y="17" width="254" height="38.5"/>
+                                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1000" minValue="0.0" maxValue="2000" translatesAutoresizingMaskIntoConstraints="NO" id="Z0D-UU-51e">
+                                            <rect key="frame" x="-2" y="20.5" width="254" height="35"/>
                                             <color key="minimumTrackTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="thumbTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
@@ -109,8 +114,8 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="1kk-Jd-fuf"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                            <color key="textColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lfn-L3-f6F">
@@ -131,8 +136,8 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="5nj-V6-AHD"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                            <color key="textColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="SeF-O5-tQU">
@@ -187,10 +192,10 @@
                 <constraint firstItem="3Ic-9g-1ym" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="vcM-n9-aDF"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="67" y="-11"/>
+            <point key="canvasLocation" x="66.5" y="-11.5"/>
         </view>
     </objects>
     <resources>
-        <image name="logo" width="193" height="229"/>
+        <image name="logo" width="215" height="256"/>
     </resources>
 </document>
