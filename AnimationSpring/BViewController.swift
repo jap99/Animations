@@ -35,7 +35,6 @@ class BViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         myView1.backgroundColor = CustomColors.buildSchoolBlue()
         myView2.backgroundColor = CustomColors.buildSchoolBlue()
         self.view.addSubview(myView1)
@@ -80,15 +79,8 @@ class BViewController: UIViewController {
         }) { (_) in
             
             self.myView2.frame =  CGRect(x: self.view.frame.origin.x , y: (self.view.frame.size.height / 2) , width: self.view.frame.size.width, height: 8)
-            
-            self.myImageView.transform = CGAffineTransform(
         }
     }
-    
-    
-    
-    
-    
     
     override func viewDidDisappear(_ animated: Bool) {
         self.myImageView.stopAnimating()

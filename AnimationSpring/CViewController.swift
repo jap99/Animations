@@ -105,13 +105,5 @@ class CViewController: UIViewController {
              self.lineView.frame =  CGRect(x: self.view.frame.origin.x , y: (self.view.frame.size.height / 2) , width: self.view.frame.size.width, height: 8)
         }
     }
-
-    
-
 }
-
-
-
-
-//self.boxView.frame = CGRect(x: self.view.frame.origin.x , y: (self.view.frame.size.height / 2) - 50 , width: self.view.frame.size.width, height: 8)
-
+ 
