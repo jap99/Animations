@@ -21,11 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let vc1 = AViewController()
         let vc2 = BViewController()
-        
-      //  let springNC = UINavigationController(rootViewController: vc1)
-        
+        let vc3 = CViewController()
+         
         tab.addChildViewController(vc1)
         tab.addChildViewController(vc2)
+        tab.addChildViewController(vc3)
         
         self.window?.rootViewController = tab 
         self.window?.makeKeyAndVisible()
