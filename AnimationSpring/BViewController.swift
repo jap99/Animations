@@ -35,25 +35,23 @@ class BViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         myView1.backgroundColor = CustomColors.buildSchoolBlue()
         myView2.backgroundColor = CustomColors.buildSchoolBlue()
         self.view.addSubview(myView1)
         self.view.addSubview(myView2)
         
+        // Code used to animate images
         myImageView.image = image1
         myImageView.highlightedImage = image2
-        
         myImageView.isUserInteractionEnabled = true
         myImageView.isHighlighted = false
         myImageView.animationImages = [image1, image2]
         myImageView.highlightedAnimationImages = [UIImage()]
         myImageView.animationDuration = 1.0
         myImageView.animationRepeatCount = 0
-        
         myImageView.contentMode = .scaleToFill
         self.view.addSubview(myImageView)
-        
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -83,8 +81,14 @@ class BViewController: UIViewController {
             
             self.myView2.frame =  CGRect(x: self.view.frame.origin.x , y: (self.view.frame.size.height / 2) , width: self.view.frame.size.width, height: 8)
             
+            self.myImageView.transform = CGAffineTransform(
         }
     }
+    
+    
+    
+    
+    
     
     override func viewDidDisappear(_ animated: Bool) {
         self.myImageView.stopAnimating()
