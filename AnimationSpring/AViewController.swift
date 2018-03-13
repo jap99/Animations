@@ -39,6 +39,8 @@ class AViewController: UIViewController {
         self.updateSliderLabel(for: self.durationSlider)
         self.updateSliderLabel(for: self.springDampingSlider)
         self.updateSliderLabel(for: self.springVelocitySlider)
+        self.gestureView.backgroundColor = .gray
+        self.view.backgroundColor = .gray
     }
 
     private func performSpringAnimation(animation: @escaping (() -> Void), reset: @escaping (() -> Void)) {

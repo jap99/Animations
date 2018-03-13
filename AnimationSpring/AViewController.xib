@@ -85,19 +85,19 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ryn-SP-8cL">
-                            <rect key="frame" x="33" y="10" width="250" height="159"/>
+                            <rect key="frame" x="33" y="10" width="246" height="159"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uDJ-qU-nIa">
-                                    <rect key="frame" x="0.0" y="0.0" width="250" height="54.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="246" height="54.5"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Animation Duration (seconds)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="V8v-3b-L1q">
-                                            <rect key="frame" x="0.0" y="0.0" width="250" height="20.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="246" height="20.5"/>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                             <color key="textColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1500" minValue="0.0" maxValue="3000" translatesAutoresizingMaskIntoConstraints="NO" id="Z0D-UU-51e">
-                                            <rect key="frame" x="-2" y="20.5" width="254" height="35"/>
+                                            <rect key="frame" x="-2" y="20.5" width="250" height="35"/>
                                             <color key="minimumTrackTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="thumbTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
@@ -107,10 +107,10 @@
                                     </subviews>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XA9-6J-nlw">
-                                    <rect key="frame" x="0.0" y="54.5" width="250" height="50"/>
+                                    <rect key="frame" x="0.0" y="54.5" width="246" height="50"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spring Damping" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4eB-9z-3ag">
-                                            <rect key="frame" x="0.0" y="0.0" width="250" height="21"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="246" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="1kk-Jd-fuf"/>
                                             </constraints>
@@ -119,7 +119,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lfn-L3-f6F">
-                                            <rect key="frame" x="-2" y="21" width="254" height="30"/>
+                                            <rect key="frame" x="-2" y="21" width="250" height="30"/>
                                             <color key="minimumTrackTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="thumbTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
@@ -129,10 +129,10 @@
                                     </subviews>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="sa9-e2-reH">
-                                    <rect key="frame" x="0.0" y="104.5" width="250" height="54.5"/>
+                                    <rect key="frame" x="0.0" y="104.5" width="246" height="54.5"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spring Velocity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQK-ur-mTk">
-                                            <rect key="frame" x="0.0" y="0.0" width="250" height="21"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="246" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="5nj-V6-AHD"/>
                                             </constraints>
@@ -141,7 +141,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="SeF-O5-tQU">
-                                            <rect key="frame" x="-2" y="21" width="254" height="34.5"/>
+                                            <rect key="frame" x="-2" y="21" width="250" height="34.5"/>
                                             <color key="minimumTrackTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="thumbTintColor" red="0.1613565683" green="0.23155406119999999" blue="0.39337769150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
@@ -174,7 +174,7 @@
                         <constraint firstItem="sWI-HI-gtO" firstAttribute="top" secondItem="3Ic-9g-1ym" secondAttribute="top" constant="9" id="OTU-pA-gRr"/>
                         <constraint firstItem="vpO-Uu-78O" firstAttribute="centerX" secondItem="sWI-HI-gtO" secondAttribute="centerX" id="dkH-7D-Ovz"/>
                         <constraint firstItem="6HW-bS-6Cq" firstAttribute="height" secondItem="vpO-Uu-78O" secondAttribute="height" id="fd2-54-4e1"/>
-                        <constraint firstItem="sWI-HI-gtO" firstAttribute="leading" secondItem="Ryn-SP-8cL" secondAttribute="trailing" constant="14" id="hLu-wa-UJM"/>
+                        <constraint firstItem="sWI-HI-gtO" firstAttribute="leading" secondItem="Ryn-SP-8cL" secondAttribute="trailing" constant="18" id="hLu-wa-UJM"/>
                         <constraint firstItem="6HW-bS-6Cq" firstAttribute="top" secondItem="vpO-Uu-78O" secondAttribute="bottom" id="jUI-sO-F6d"/>
                         <constraint firstAttribute="trailing" secondItem="sWI-HI-gtO" secondAttribute="trailing" constant="23" id="kkt-Dt-TKI"/>
                     </constraints>
