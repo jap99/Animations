@@ -19,11 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let tab = UITabBarController()
         
-        let vc = AViewController()
+        let vc1 = AViewController()
+        let vc2 = BViewController()
         
-        let springNC = UINavigationController(rootViewController: vc)
+      //  let springNC = UINavigationController(rootViewController: vc1)
         
-        tab.addChildViewController(springNC)
+        tab.addChildViewController(vc1)
+        tab.addChildViewController(vc2)
         
         self.window?.rootViewController = tab 
         self.window?.makeKeyAndVisible()
