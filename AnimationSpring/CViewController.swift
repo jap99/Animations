@@ -54,10 +54,11 @@ class CViewController: UIViewController {
     }
     
     @IBAction func scaleButtonPressed(_ sender: Any) {
-        UIView.animate(withDuration: 0.7, animations: {
+        
+        UIView.animate(withDuration: 2.7, animations: {
             
             // Scale object to half its size
-            self.whiteCircle.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+            self.whiteCircle.transform = CGAffineTransform(scaleX: 2.5, y: 2.5)
         }) { (_) in
             
             // Transform object back to original position after animation completes
@@ -89,6 +90,7 @@ class CViewController: UIViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+       
         UIView.animate(withDuration: 0.5, animations: {
             
             self.lineView.alpha = 1
